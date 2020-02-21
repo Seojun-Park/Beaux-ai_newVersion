@@ -1,0 +1,39 @@
+.header {
+    border-bottom:1px solid lightslategray;
+}
+
+.header .banner{
+    width: 100%;
+}
+
+.header .banner img {
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightslategrey;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 10pt;
+    color: lightslategrey;
+}
+
+.main_logo {
+    padding: 60px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main_logo img {
+    width: 40%;
+}
+
+.main_article {
+    padding: 40px 60px;
+    text-align: center;
+    font-size: 18pt;
+}

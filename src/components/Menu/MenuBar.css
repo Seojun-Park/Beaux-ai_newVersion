@@ -1,0 +1,27 @@
+.menu {
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.menu li{
+    font-weight: 600;
+    font-size: 15pt;
+    list-style: none;
+    float: left;
+    display: block;
+    width: 19.81%;
+    text-decoration: none;
+    padding: 10px 1px;
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: coral;
+}

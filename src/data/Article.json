@@ -1,0 +1,16 @@
+{
+    "articleList" : [
+        {
+            "title" : "Arccuil",
+            "article" : "Le gâteau spécial, pour la personne spéciale, pour le jour spécial",
+            "page" :"arc",
+            "id" : 1
+        },
+        {
+            "title" : "Nous Sommes",
+            "article":"this is a test",
+            "page":"somme",
+            "id" : 2
+        }
+    ]
+}
