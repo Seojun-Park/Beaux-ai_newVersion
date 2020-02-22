@@ -53,7 +53,7 @@ class Main extends Component {
         return (
             <div>
                 <Header />
-                {/* <MenuPage page={this.state.page} /> */}
+                
                 <Footer />
             </div>   
         );

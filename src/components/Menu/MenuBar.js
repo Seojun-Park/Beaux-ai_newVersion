@@ -1,25 +1,37 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+
 import './MenuBar.css';
 
-const Menu = (props) =>(
+
+const Menubar = (props) =>(
     <ul className="menu">
         <li>
-            <Link to="/">Accuil</Link>
+            <Link to="/Accuil">
+                Accuil
+            </Link>
         </li>
         <li>
-            <Link to="/">Nous Sommes</Link>
+            <Link to="/NousSommes">
+                Nous Sommes
+            </Link>
         </li>
         <li>
-            <Link to="/">Nos Gâteaux</Link>
+            <Link to="/NosGateaux">
+                Nos Gâteaux
+            </Link>
         </li>
         <li>
-            <Link to="/">Nos Service</Link>
+            <Link to="/NosService">
+                Nos Service
+            </Link>
         </li>
         <li>
-            <Link to="/">Contact</Link>
+            <Link to="/">
+                Contact
+            </Link>
         </li>
     </ul>
 )
 
-export default Menu;
+export default Menubar;

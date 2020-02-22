@@ -6,7 +6,7 @@ import Background from '../images/head_final.jpg';
 const Header = () => (
     <div className="header">
         <div className="banner">
-            <a href="/"><img src={Background} alt="background" /></a>
+            <a href="/Accuil"><img src={Background} alt="background" /></a>
         </div>
         <div>
             <div className="menubar">

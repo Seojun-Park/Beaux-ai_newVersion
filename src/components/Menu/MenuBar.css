@@ -1,27 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+    font-family:'Open Sans', ;
+}
+
 .menu {
     overflow: hidden;
     text-align: center;
     width: 100%;
     display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu ul {
+    overflow: hidden;
 }
 
 .menu li{
+    overflow: hidden;
     font-weight: 600;
     font-size: 15pt;
     list-style: none;
     float: left;
-    display: block;
-    width: 19.81%;
+    width: 19%;
     text-decoration: none;
     padding: 10px 1px;
     text-decoration: none;
 }
 
 .menu a {
+    overflow: hidden;
     text-decoration: none;
     color: black;
 }
 
 .menu a:hover {
     color: coral;
+}
+
+/* Accuil */
+
+.menu_title {
+    padding: 40px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu_title .ac_logo img{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: dimgray 4px 4px 8px;
+}
+
+.menu_title .ac_content {
+    font-size: 16pt;
+}
+
+/* Nous Sommes */
+
+.sommes_content {
+    padding: 20px;
+}
+
+.sommes_content .contents_title{
+    padding: 20;
+    text-align: center;
+}
+
+.sommes_content .contents_title h1{
+    font-size: 40pt;
+    text-shadow: 2px 2px 5px dimgray;
+    padding: 10px 0;
+}
+
+.sommes_content .contents_title h2 {
+    padding: 10px 0;
+    font-size: 30pt;
+}
+
+.sommes_content .contents {
+    text-align: center;
+    padding: 20px;
+}
+
+.sommes_content .contents img {
+    width: 85%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: dimgray 4px 4px 10px;
+}
+
+.sommes_content .contents p {
+    padding: 30px 0;
+    overflow: hidden;
+    font-size: 16pt;
+}
+
+/* Nos Gateaux */
+
+.gat_content {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.gat_content h1{
+    padding: 20px 0;
+    font-size: 30pt;
+    font-style: italic;
+}
+
+.gat_content .gat_upperCont {
+    padding-bottom: 50px;
+}
+
+
+.slider {
+    display: block;
+    width: 52%;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.auto_slider {
+    display: block;
+    width: 60%;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+
+.gat_content p {
+    font-size: 15pt;
+    padding: 20px 0;
+}
+
+.gat_content .gat_midcont .mid_article {
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 60px;
+}
+
+.gat_content .gat_midcont .mid_article p {
+    height: 50px;
+}
+
+.gat_content .gat_midcont .mid_article h3 {
+    font-size: 20pt;
+    display: block;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.gat_content .gat_midcont .mid_article .mid_first {
+    overflow: hidden;
+    padding: 15px;
+}
+.gat_content .gat_midcont .mid_article .mid_second {
+    overflow: hidden;
+    padding: 15px;
+}
+
+.mid_slider {
+    max-width: 500px;
+}
+
+.mid_slider img{
+    max-width: 400px;
+}
+
+/* Nos Service */
+.service {
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    overflow: hidden; 
+}
+
+.service h1 {
+    padding: 20px 0;
+    font-size: 30pt;
+    font-style: italic;
+}
+
+.text_below {
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 10pt;
+    float: right;
+    color: firebrick;
+}
+
+
+.service_mid_tit {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.service_mid_cont {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+.service_mid_cont .child_title{
+    text-align: left;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 10px;
+}
+
+.service_mid_cont .mid_first_child {
+    display: grid;
+    grid-template-rows: 10% 20% 1fr;
+    font-size: 16pt;
+    width: 90%;
+    height: 450px;
+    margin: 10px;
+
+}
+
+.child_list {
+    padding: 10px 45px;
+    text-align: left;
+
+}
+
+.child_img img {
+    max-width: 90%;
+}
+
+.service_mid_cont .mid_second_child {
+    display: grid;
+    grid-template-rows: 10% 20% 1fr;
+    font-size: 16pt;
+    width: 90%;
+    height: 450px;
+    margin: 10px;;
+}
+
+.text_below_bot {
+    padding: 5px;
+    font-size: 10pt;
+    float: right;
+    color: firebrick;
 }

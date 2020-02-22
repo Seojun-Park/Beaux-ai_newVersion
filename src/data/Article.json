@@ -1,15 +1,21 @@
 {
     "articleList" : [
         {
-            "title" : "Arccuil",
+            "title" : "accuil",
             "article" : "Le gâteau spécial, pour la personne spéciale, pour le jour spécial",
             "page" :"arc",
             "id" : 1
         },
         {
-            "title" : "Nous Sommes",
+            "title" : "sommes",
             "article":"this is a test",
             "page":"somme",
+            "id" : 2
+        },
+        {
+            "title" : "gat",
+            "article": "Le gâteau spécial, pour la personne spéciale, pour le jour spécial<br/>Tteok est une pâtisserie coréenne faite de farine de riz, cuit à la vapeur<br/>Les nombreuses versions vont du tteok aux noix et aux fruits au tteok courant utilisé en cuisine.",
+            "page":"gat",
             "id" : 2
         }
     ]
